@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/png" href="IMAGES/LOGO.gif">
+  <title>ParamamSutram_Courses</title>
+
+  <!-- Bootstrap 5 CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Bootstrap Icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+  <!-- Your Custom Styles -->
+  <link href="css/style.css" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+</head>
+
+<body style="padding-top: 70px">
+	
+<!--Header Section-->
+
+<div class="container-fluid">
+	
+<nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light shadow-sm">
+  <div class="container">
+    <p> <a class="navbar-brand fw-bold" href="#"> <img src="IMAGES/LOGO.gif" alt="Logo" width="80" height="79">परमम् सूत्रम्&nbsp;</a></p>
+    <p><a class="navbar-brand fw-bold" href="#">&nbsp; &nbsp; </a> </p>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item">
+          <a class="nav-link btn btn-outline-secondary mx-1" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link btn btn-outline-secondary mx-1" href="AboutUs.html">About Us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link btn btn-outline-secondary mx-1" href="Courses.html">Courses</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link btn btn-outline-secondary mx-1" href="Knowledge.html">Knowledge</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link btn btn-outline-secondary mx-1" href="Contacts.html">Contact</a>
+        </li>
+      </ul>
+
+      <!-- Auth Buttons -->
+      <button class="btn btn-warning login-btn" data-bs-toggle="modal" data-bs-target="#loginModal">Login</button>
+      <!--<button class="btn mx-1" data-bs-toggle="collapse" data-bs-target="#signupCollapse">Sign Up</button>-->
+    </div>
+  </div>
+</nav>
+
+
+  <!-- Navbar 
+  <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">
+      <img src="IMAGES/LOGO.gif" alt="" width="80" height="80">&nbsp;
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent1" aria-controls="navbarSupportedContent1" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent1">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="AboutUs.html">About us</a></li>
+        <li class="nav-item"><a class="nav-link" href="Gallery.html">Gallery</a></li>
+        <li class="nav-item"><a class="nav-link" href="Knowledge.html">Knowledge</a></li>
+        <li class="nav-item"><a class="nav-link" href="Courses.html">Courses</a></li>
+        <li class="nav-item"><a class="nav-link" href="Contacts.html">Contacts</a></li>
+      </ul>
+
+      <!-- Trigger Button 
+      <button type="button" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#loginModal">
+        Login
+      </button>
+    </div>
+  </nav> -->
+
+  <!-- Login Modal Overlay -->
+  <div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content p-4">
+        <div class="modal-header border-0">
+          <h5 class="modal-title" id="loginModalLabel">Login to ParamamSutram</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+        </div>
+
+        <div class="modal-body">
+          <!-- Login Form -->
+          <form method="POST" action="login.php">
+            <div class="mb-3">
+              <label class="form-label">Email</label>
+              <input type="email" name="email" class="form-control" required>
+            </div>
+            <div class="mb-3">
+              <label class="form-label">Password</label>
+              <input type="password" name="password" class="form-control" required>
+            </div>
+            <button type="submit" class="btn btn bg-saffron w-100 mb-3">Login</button>
+          </form>
+
+          <!-- Collapsible Signup Section -->
+          <p class="text-center">
+            Not signed up yet?
+            <a href="#signupCollapse" class="btn btn-outline bg-saffron btn-sm" aria-controls="signupCollapse" aria-expanded="false" role="button" data-bs-toggle="collapse">
+              Sign Up
+            </a>
+          </p>
+
+          <div class="collapse" id="signupCollapse">
+            <div class="card card-body">
+              <form method="POST" action="signup.php">
+                <div class="mb-3">
+                  <label class="form-label">Full Name</label>
+                  <input type="text" name="name" class="form-control" required>
+                </div>
+                <div class="mb-3">
+                  <label class="form-label">Email</label>
+                  <input type="email" name="email" class="form-control" required>
+                </div>
+                <div class="mb-3">
+                  <label class="form-label">Password</label>
+                  <input type="password" name="password" class="form-control" required>
+                </div>
+                <button type="submit" class="btn btn bg-saffron w-100">Create Account</button>
+              </form>
+            </div>
+          </div>
+
+          <!-- Social Login -->
+          <div class="text-center mt-3">
+            <p>Or login with</p>
+            <a href="google_login.php" class="btn btn-outline bg-saffron w-100 mb-2">
+              <i class="bi bi-google"></i> Continue with Google
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+	
+<!--Header Section-->
+	
+<!--Body Section--->
+	<br>
+	<br>
+	 <div>
+<img src="IMAGES/WEBCOVER_REV02.gif" alt="" width="1500" height="752" class="img-fluid"/>
+	 </div>
+<!--Carrousel--->
+<br>
+
+
+<h2 class="text-center" style="text-align:center;"> ParamamSutram Saga&nbsp; </h2>
+<br>
+
+<!--Body Section--->
+
+<div id="courseCarousel" class="carousel slide" data-bs-ride="carousel">
+  
+  
+  <!-- Carousel inner -->
+  <div class="carousel-inner text-center">
+    <!-- Slide 1 -->
+    <div class="carousel-item active">
+      <img src="IMAGES/THUMBNAIL.png" class="d-block mx-auto img-fluid" style="max-height:200px;" alt="Course 1">
+      <h5 class="text-center1 mt-3">Course Title 1</h5>
+    </div>
+    <!-- Slide 2 -->
+    <div class="carousel-item">
+      <img src="IMAGES/WEBCOVER.gif" class="d-block mx-auto img-fluid" style="max-height:200px;" alt="Course 2">
+      <h5 class="text-center1 mt-3">Course Title 2</h5>
+    </div>
+    <!-- Slide 3 -->
+    <div class="carousel-item">
+      <img src="IMAGES/YAGNYA PARAMPARA_NEW2.jpg" class="d-block mx-auto img-fluid" style="max-height:200px;" alt="Course 3">
+      <h5 class="text-center1 mt-3">Course Title 3</h5>
+    </div>
+  </div>
+	
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#courseCarousel" data-bs-slide-to="0" class="active"></button>
+    <button type="button" data-bs-target="#courseCarousel" data-bs-slide-to="1"></button>
+    <button type="button" data-bs-target="#courseCarousel" data-bs-slide-to="2"></button>
+  </div>
+
+<!-- Indicators -->
+  <!-- Manual navigation buttons -->
+<button class="carousel-control-prev" type="button" data-bs-target="#courseCarousel" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#courseCarousel" data-bs-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </button>
+</div>
+
+<!---Carrousel-->
+	
+<!-- Footer -->
+	
+  <footer class="footer text-light pt-5 pb-3 mt-5 bg-dark">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-3 text-center">
+          <img src="IMAGES/LOGO.gif" alt="ParamamSutram Logo" width="111" height="101" class="footer-logo">
+          <p>Realisation expression of innerself..</p>
+          <p class="small">© 2025 ParamamSutram. All Rights Reserved.</p>
+        </div>
+        <div class="col-md-3 text-center">
+          <h5>Quick Links</h5>
+          <ul class="list-unstyled">
+            <li><a href="index.html">Home</a></li>
+			<li><a href="AboutUs.html">About Us</a></li>
+            <li><a href="Courses.html">Courses</a></li>
+			<li><a href="Knowledge.html">Knowledge</a></li>
+            <li><a href="Contacts.html">Contact</a></li>
+			<li><a href="Gallery.html">Gallery</a></li>
+          </ul>
+        </div>
+        <div class="col-md-3 text-center">
+          <h5>Connect</h5>
+          <p>Email: info@paramamsutram.com</p>
+		<div class="social-icons justify-content-center">
+  <!-- Blogger -->
+  <a href="https://dharmarajlokhande.blogspot.com" target="_blank" class="social-icon">
+    <i class="fa-brands fa-blogger"></i>
+  </a>
+  <!-- YouTube -->
+  <a href="https://www.youtube.com/@ParamamSutram" target="_blank" class="social-icon">
+    <i class="fa-brands fa-youtube"></i>
+  </a>
+  <!-- Facebook -->
+  <a href="#" target="_blank" class="social-icon">
+    <i class="fa-brands fa-facebook"></i>
+  </a>
+  <!-- Instagram -->
+  <a href="#" target="_blank" class="social-icon">
+    <i class="fa-brands fa-instagram"></i>
+  </a>
+</div>
+          
+        </div>
+        <div class="col-md-3">
+          <h5>Subscribe</h5>
+          <form>
+            <input type="email" placeholder="Your email" class="form-control mb-2">
+            <button class="btn btn-warning w-100">Subscribe</button>
+          </form>
+	    </div>
+
+    </div>
+  </div>
+</footer>
+
+<!-- Footer Section--->
+</div>
+
+<!-- body code goes here -->
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+	
+</html>

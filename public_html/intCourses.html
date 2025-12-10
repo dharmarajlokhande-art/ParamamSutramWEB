@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/png" href="IMAGES/LOGO.gif">
+  <title>ParamamSutram_Courses</title>
+
+  <!-- Bootstrap 5 CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Bootstrap Icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+  <!-- Your Custom Styles -->
+  <link href="css/style.css" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+</head>
+
+<body style="padding-top: 70px">
+	
+<!--Header Section-->
+
+<div class="container-fluid">
+	
+<nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light shadow-sm">
+  <div class="container">
+    <p> <a class="navbar-brand fw-bold" href="#"> <img src="IMAGES/LOGO.gif" alt="Logo" width="80" height="79">परमम् सूत्रम्&nbsp;</a></p>
+    <p><a class="navbar-brand fw-bold" href="#">&nbsp; &nbsp; </a> </p>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item">
+          <a class="nav-link btn btn-outline-secondary mx-1" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link btn btn-outline-secondary mx-1" href="AboutUs.html">About Us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link btn btn-outline-secondary mx-1" href="Courses.html">Courses</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link btn btn-outline-secondary mx-1" href="Gallery.html">Gallery</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link btn btn-outline-secondary mx-1" href="Contacts.html">Contact</a>
+        </li>
+      </ul>
+
+      <!-- Auth Buttons -->
+      <button class="btn btn-warning login-btn" data-bs-toggle="modal" data-bs-target="#loginModal">Login</button>
+      <!--<button class="btn mx-1" data-bs-toggle="collapse" data-bs-target="#signupCollapse">Sign Up</button>-->
+    </div>
+  </div>
+</nav>
+
+  <!-- Login Modal Overlay -->
+  <div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content p-4">
+        <div class="modal-header border-0">
+          <h5 class="modal-title" id="loginModalLabel">Login to ParamamSutram</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+        </div>
+
+        <div class="modal-body">
+          <!-- Login Form -->
+          <form method="POST" action="login.php">
+            <div class="mb-3">
+              <label class="form-label">Email</label>
+              <input type="email" name="email" class="form-control" required>
+            </div>
+            <div class="mb-3">
+              <label class="form-label">Password</label>
+              <input type="password" name="password" class="form-control" required>
+            </div>
+            <button type="submit" class="btn btn bg-saffron w-100 mb-3">Login</button>
+			   <p class="btn btn bg-saffron w-100 mb-3"><a href="#">Forgot password?</a></p>
+          </form>
+
+          <!-- Collapsible Signup Section -->
+          <p class="text-center">
+            Not signed up yet?
+            <a href="#signupCollapse" class="btn btn-outline bg-saffron btn-sm" aria-controls="signupCollapse" aria-expanded="false" role="button" data-bs-toggle="collapse">
+              Sign Up
+            </a>
+          </p>
+
+          <div class="collapse" id="signupCollapse">
+            <div class="card card-body">
+              <form method="POST" action="signup.php">
+                <div class="mb-3">
+                  <label class="form-label">Full Name</label>
+                  <input type="text" name="name" class="form-control" required>
+                </div>
+                <div class="mb-3">
+                  <label class="form-label">Email</label>
+                  <input type="email" name="email" class="form-control" required>
+                </div>
+                <div class="mb-3">
+                  <label class="form-label">Password</label>
+                  <input type="password" name="password" class="form-control" required>
+                </div>
+                <button type="submit" class="btn btn bg-saffron w-100">Create Account</button>
+              </form>
+				               
+            </div>
+          </div>
+
+          <!-- Social Login -->
+          <div class="text-center mt-3">
+            <p>Or login with</p>
+            <a href="google_login.php" class="btn btn-outline bg-saffron w-100 mb-2">
+              <i class="bi bi-google"></i> Continue with Google
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+	
+<!--Header Section-->
+
+<!--Body Section--->
+<!--One Course template--->
+<section class="courses">
+<div class="course-grid">
+    <h2 class="group-title text-center2">संस्कृत&nbsp; सरल _Sanskrit Basics&nbsp; &nbsp;</h2>
+    <div class="course-grid container-fluid">
+      <div class="course-item text-center1">
+        <div class="course-tile position-relative">
+			<span class="price-ribbon">₹500</span>
+			
+          <img src="IMAGES/THUMBNAIL.png" alt="Course 1">
+		   
+        </div>
+<div class="text-center font-weight-bold">संस्कृत&nbsp; सरल _Sanskrit Basics</div>
+		<!-- Buy button -->
+  <button class="btn btn-success btn-sm ms-2">Buy Course</button>
+  
+      </div>
+	  
+</div>
+	<div class="group-footer text-center mt-3 position-relative">
+  <div class="bundle-ribbon">
+    Total Group Price: ₹1,500
+    <button class="btn btn-success btn-sm ms-2">Buy Group</button>
+	  
+  </div>
+</div>
+
+  </div>
+
+  </section>
+	
+<!--One Course template--->
+<!--Two Courses template--->
+<section class="courses">
+  <div class="course-grid">
+    <h2 class="group-title text-center2">_संस्कृत&nbsp; उत्कृष्ट _Mastering of Sanskrit</h2>
+    <div class="course-grid container-fluid">
+      <div class="course-item text-center1">
+		  
+        <div class="course-tile position-relative">
+			<span class="price-ribbon">₹500</span>
+			<img src="IMAGES/YAGNYA PARAMPARA_NEW2.jpg" alt="Course 1"> </div>
+        <div class="text-center font-weight-bold">संस्कृत&nbsp; उत्कृष्ट _Sanskrit Advance</div>
+        <button class="btn btn-sm ms-2 btn-success">Buy Course</button>
+
+		</div>
+		
+      <div class="course-item">
+        <div class="course-tile position-relative">
+			<span class="price-ribbon">₹500</span>
+		  <img src="IMAGES/WEBCOVER.gif" alt="Course 1"> </div>
+        <div class="font-weight-bold text-center1">संस्कृत&nbsp; बोलना _Sanskrit Speaking&nbsp;</div>
+        <button class="btn btn-sm ms-2 btn-success">Buy Course</button>
+
+		</div>
+</div>
+	  <div class="group-footer text-center mt-3 position-relative">
+  <div class="bundle-ribbon">
+    Total Group Price: ₹1,500
+    <button class="btn btn-success btn-sm ms-2">Buy Group</button>
+  </div>
+</div>
+<!--
+<div class="badge bg-saffron bi-text-center">
+        <strong>Total Group Price: ₹ 1,000</strong>
+      </div>-->
+  </div>
+</section>
+<section class="courses">
+  <div class="course-grid">
+    <h2 class="group-title text-center2">उपनिषद्&nbsp;  _Upanishad&nbsp; &nbsp;</h2>
+    <div class="course-grid container-fluid">
+      <div class="course-item text-center1">
+		<div class="course-tile position-relative">
+			<span class="price-ribbon">₹500</span>
+		  <img src="IMAGES/Copilot_20251022_155134.png" alt="Course 1"> </div>
+		  
+        <div class="text-center font-weight-bold">Ishavasyopanisha_इशो पनिषद&nbsp; &nbsp; &nbsp;</div>
+		  <button class="btn btn-sm ms-2 btn-success">Buy Course</button>
+        </div>
+      <div class="course-item">
+        <div class="course-tile position-relative">
+			<span class="price-ribbon">₹500</span>
+		  <img src="IMAGES/Remove the glowing O.png" alt="Course 1"> </div>
+        <div class="font-weight-bold text-center1">कठोपनिषद&nbsp; &nbsp; &nbsp; Kathopanishad&nbsp;</div>
+		  <button class="btn btn-sm ms-2 btn-success">Buy Course</button>
+        </div>
+      <div class="course-item">
+       <div class="course-tile position-relative">
+			<span class="price-ribbon">₹500</span>
+		  <img src="IMAGES/A 3D semi-realistic १ .png" alt="Course 1"> </div>
+        <div class="font-weight-bold text-center1">केनोपनिषद _Kenopanishad _</div>
+		  <button class="btn btn-sm ms-2 btn-success">Buy Course</button>
+        </div>
+    </div>
+	<div class="group-footer text-center mt-3 position-relative">
+  <div class="bundle-ribbon">
+    Total Group Price: ₹1,500
+    <button class="btn btn-success btn-sm ms-2">Buy Group</button>
+	  
+  </div>
+</div>
+  </div>
+</section>
+<section class="courses">
+  <div class="course-grid">
+    <h2 class="group-title text-center2">वेदांग _Vedang&nbsp; &nbsp;&nbsp;</h2>
+    <div class="course-grid container-fluid">
+      <div class="course-item text-center1">
+        <div class="course-tile position-relative">
+			<span class="price-ribbon">₹500</span>
+		  <img src="IMAGES/An image showing the.png" alt="Course 1"> </div>
+        <div class="text-center font-weight-bold">शिक्षा _Shikasha&nbsp;&nbsp;</div>
+		  <button class="btn btn-sm ms-2 btn-success">Buy Course</button>
+      </div>
+      <div class="course-item">
+        <div class="course-tile position-relative">
+			<span class="price-ribbon">₹500</span>
+		  <img src="IMAGES/Sacred Fire at Sunset.png" alt="Course 1"> </div>
+        <div class="font-weight-bold text-center1">व्याकरण _Vyakaran&nbsp;</div>
+		  <button class="btn btn-sm ms-2 btn-success">Buy Course</button>
+        </div>
+      <div class="course-item">
+        <div class="course-tile position-relative">
+			<span class="price-ribbon">₹500</span>
+		  <img src="IMAGES/Copilot_20251022_160214.png" alt="Course 1"> </div>
+        <div class="font-weight-bold text-center1">निरुक्त _Nirukt</div>
+		  <button class="btn btn-sm ms-2 btn-success">Buy Course</button>
+        </div>
+      <div class="course-item">
+        <div class="course-tile position-relative">
+			<span class="price-ribbon">₹500</span>
+		  <img src="IMAGES/Copilot_20251103_172332.png" alt="Course 1"> </div>
+        <div class="font-weight-bold text-center1">ज्योतिष _Jyotish&nbsp;</div>
+		  <button class="btn btn-sm ms-2 btn-success">Buy Course</button>
+       </div>
+    </div>
+	<div class="group-footer text-center mt-3 position-relative">
+  <div class="bundle-ribbon">
+    Total Group Price: ₹1,500
+    <button class="btn btn-success btn-sm ms-2">Buy Group</button>
+  </div>
+</div>
+  </div>
+</section>
+<!--Body Section--->
+
+<!-- Footer -->
+	
+  <footer class="footer text-light pt-5 pb-3 mt-5 bg-dark">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-3 text-center">
+          <img src="IMAGES/LOGO.gif" alt="ParamamSutram Logo" width="111" height="101" class="footer-logo">
+          <p>Realisation expression of innerself..</p>
+          <p class="small">© 2025 ParamamSutram. All Rights Reserved.</p>
+        </div>
+        <div class="col-md-3 text-center">
+          <h5>Quick Links</h5>
+          <ul class="list-unstyled">
+            <li><a href="index.html">Home</a></li>
+			<li><a href="AboutUs.html">About Us</a></li>
+            <li><a href="Courses.html">Courses</a></li>
+			<li><a href="Knowledge.html">Knowledge</a></li>
+            <li><a href="Contacts.html">Contact</a></li>
+			<li><a href="Gallery.html">Gallery</a></li>
+          </ul>
+        </div>
+        <div class="col-md-3 text-center">
+          <h5>Connect</h5>
+          <p>Email: info@paramamsutram.com</p>
+		<div class="social-icons justify-content-center">
+  <!-- Blogger -->
+  <a href="https://dharmarajlokhande.blogspot.com" target="_blank" class="social-icon">
+    <i class="fa-brands fa-blogger"></i>
+  </a>
+  <!-- YouTube -->
+  <a href="https://www.youtube.com/@ParamamSutram" target="_blank" class="social-icon">
+    <i class="fa-brands fa-youtube"></i>
+  </a>
+  <!-- Facebook -->
+  <a href="#" target="_blank" class="social-icon">
+    <i class="fa-brands fa-facebook"></i>
+  </a>
+  <!-- Instagram -->
+  <a href="#" target="_blank" class="social-icon">
+    <i class="fa-brands fa-instagram"></i>
+  </a>
+</div>
+          
+        </div>
+        <div class="col-md-3">
+          <h5>Subscribe</h5>
+          <form>
+            <input type="email" placeholder="Your email" class="form-control mb-2">
+            <button class="btn btn-warning w-100">Subscribe</button>
+          </form>
+	    </div>
+
+    </div>
+  </div>
+</footer>
+
+<!-- Footer Section--->
+</div>
+
+<!-- body code goes here -->
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+<!-- script from Copilot -->
+<script>
+  fetch('http://localhost:3000/courses')
+    .then(res => res.json())
+    .then(data => {
+      const container = document.getElementById('courses');
+      data.forEach(course => {
+        const card = `
+          <div class="course-card">
+            <img src="${course.thumbnail}" alt="${course.title}">
+            <h3>${course.title}</h3>
+            <p>${course.description}</p>
+            <p>₹${course.price}</p>
+            <button onclick="enroll(${course.id})">Enroll</button>
+          </div>
+        `;
+        container.innerHTML += card;
+      });
+    });
+
+  function enroll(courseId) {
+    fetch('http://localhost:3000/enrollments', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ userId: 1, courseId })
+    })
+    .then(res => res.json())
+    .then(msg => alert(msg.message));
+  }
+</script>
+<!-- script from Copilot -->
+	
+</body>
+	
+</html>

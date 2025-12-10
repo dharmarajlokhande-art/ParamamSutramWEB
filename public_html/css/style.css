@@ -1,0 +1,804 @@
+@charset "utf-8";
+.container-fluid .navbar.fixed-top.navbar-expand-lg.navbar-light.bg-light {
+}
+.container-fluid footer {
+    height: 300px;
+    background-color: #2B2929;
+}
+.container-fluid #carouselExampleIndicators1 {
+    background-color: rgba(255,255,255,1.00);
+    -webkit-box-shadow: 0px 0px rgba(246,246,246,1.00);
+    box-shadow: 0px 0px rgba(246,246,246,1.00);
+}
+.carousel-inner .carousel-item .d-block.mx-auto {
+    background-color: rgba(253,253,253,1.00);
+    -webkit-box-shadow: 0px 0px rgba(248,248,248,1.00);
+    box-shadow: 0px 0px rgba(248,248,248,1.00);
+}
+
+
+.container-fluid footer h6 {
+    color: rgba(255,255,255,1.00);
+    text-align: center;
+    font-size: small;
+    font-weight: lighter;
+}
+.container-fluid footer div {
+    color: rgba(254,254,254,1.00);
+}
+
+
+
+
+
+.container-fluid .navbar.fixed-top.navbar-expand-lg.navbar-light.bg-light #navbarSupportedContent1 {
+}
+.container-fluid .navbar.fixed-top.navbar-expand-lg.navbar-light.bg-light #navbarSupportedContent1 {
+}
+
+
+.container-fluid .navbar.fixed-top.navbar-expand-lg.navbar-light.bg-light {
+    background-image: -webkit-linear-gradient(270deg,rgba(32,24,17,0.96) 38.55%,rgba(248,245,242,1.00) 84.25%);
+    background-image: -moz-linear-gradient(270deg,rgba(32,24,17,0.96) 38.55%,rgba(248,245,242,1.00) 84.25%);
+    background-image: -o-linear-gradient(270deg,rgba(32,24,17,0.96) 38.55%,rgba(248,245,242,1.00) 84.25%);
+    background-image: linear-gradient(180deg,rgba(32,24,17,0.96) 38.55%,rgba(248,245,242,1.00) 84.25%);
+}
+.form-inline.my-2.my-lg-0 .btn.btn-outline-success.my-2.my-sm-0:hover{
+    background-color: #FF9933; /* darker saffron on hover */
+    width: 0px;
+}
+.container #navbarNav .navbar-nav.ms-auto {
+
+
+
+}
+
+
+.navbar-nav.ms-auto .nav-item .nav-link.btn.btn-outline-secondary.mx-1 {
+    color: #000000;
+    background-image: -webkit-linear-gradient(337deg,rgba(243,119,8,1.00) 0%,rgba(238,163,104,1.00) 20.10%,rgba(235,184,151,1.00) 54.51%,rgba(233,214,214,1.00) 100%);
+    background-image: -moz-linear-gradient(337deg,rgba(243,119,8,1.00) 0%,rgba(238,163,104,1.00) 20.10%,rgba(235,184,151,1.00) 54.51%,rgba(233,214,214,1.00) 100%);
+    background-image: -o-linear-gradient(337deg,rgba(243,119,8,1.00) 0%,rgba(238,163,104,1.00) 20.10%,rgba(235,184,151,1.00) 54.51%,rgba(233,214,214,1.00) 100%);
+    background-image: linear-gradient(113deg,rgba(243,119,8,1.00) 0%,rgba(238,163,104,1.00) 20.10%,rgba(235,184,151,1.00) 54.51%,rgba(233,214,214,1.00) 100%);
+    width: 120px;
+    font-weight: normal;
+    border: 1px solid #FC6A09;
+    border-radius: 10px;
+    height: 45px;
+}
+.container #navbarNav .btn.mx-1 {
+    background-color: #F36E02;
+}
+
+
+.navbar.fixed-top.navbar-expand-lg.navbar-light.bg-light #navbarSupportedContent1 .navbar-nav.mr-auto {
+    background-color: #5E5B5B;
+    border-radius: 7px;
+    border-color: #EC7B29;
+    width: 110px;
+}
+.container #navbarNav button {
+    width: 140px;
+    height: 45px;
+    background-color: #F26920;
+    border-radius: 10px;
+    border-width: 0px;
+    margin-left: 5px;
+}
+
+.navbar-nav.mr-auto .nav-item .nav-link {
+    color: #474747;
+    width: 130px;
+    text-align: center;
+    font-size: large;
+    background-color: #C17228;
+    background-image: -webkit-linear-gradient(270deg,rgba(235,125,27,1.00) 0%,rgba(248,244,240,1.00) 100%);
+    background-image: -moz-linear-gradient(270deg,rgba(235,125,27,1.00) 0%,rgba(248,244,240,1.00) 100%);
+    background-image: -o-linear-gradient(270deg,rgba(235,125,27,1.00) 0%,rgba(248,244,240,1.00) 100%);
+    background-image: linear-gradient(180deg,rgba(235,125,27,1.00) 0%,rgba(248,244,240,1.00) 100%);
+    border-radius: 7px;
+    border: thin solid #F77206;
+    font-weight: normal;
+    font-style: normal;
+    font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+}
+.container-fluid #carouselExampleIndicators1 .carousel-inner {
+    background-color: rgba(255,255,255,0.00);
+    background-repeat: repeat-x;
+}
+
+#navbarSupportedContent1 .navbar-nav.mr-auto .nav-item.active {
+    width: 120px;
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: normal;
+    font-size: large;
+    color: #FDFCFB;
+}
+.container-fluid #carouselExampleIndicators1 .carousel-control-prev {
+    left: auto;
+}
+.container-fluid #carouselExampleIndicators1 .carousel-control-prev {
+}
+#carouselExampleIndicators1 .carousel-control-prev .carousel-control-prev-icon {
+    background-color: #9B9B9B;
+    width: 50px;
+    height: 25px;
+}
+#carouselExampleIndicators1 .carousel-control-next .carousel-control-next-icon {
+    background-color: #9B9B9B;
+    width: 50px;
+    height: 25px;
+}
+
+.carousel-inner .carousel-item.active .d-block.mx-auto {
+    width: 300px;
+    height: 175px;
+    border-radius: 15px;
+}
+.carousel-inner .carousel-item .d-block.mx-auto {
+    width: 300px;
+    height: 175px;
+    border-radius: 15px;
+}
+.container-fluid #carouselExampleIndicators1 {
+}
+.carousel-inner .carousel-item.active .row {
+    width: auto;
+}
+.carousel-inner .carousel-inner .carousel-item.active {
+    width: auto;
+}
+#carouselExampleIndicators1 .carousel-control-next .carousel-indicators {
+}
+.carousel-control-next .carousel-indicators .active {
+    background-color: #8D8686;
+}
+.container-fluid .text-center1 {
+    font-style: oblique;
+    font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+    color: #840202;
+    font-weight: bold;
+    font-variant: normal;
+    text-decoration: underline;
+    font-size: large;
+}
+.container-fluid .text-center2 {
+    font-style: oblique;
+    font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+    color: #840202;
+    font-weight: bold;
+    font-variant: normal;
+    text-decoration: underline;
+    font-size: x-large;
+}
+/* Courses Section Styling */
+   
+
+   
+/*
+.courses h2, .group-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #840202;   /* same style for section and group titles */
+
+
+.courses {
+  text-align: center;
+  padding: 40px;
+}
+
+.courses h2, .group-title {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #222;
+}
+
+.course-item {
+  flex: 1 1 250px;
+  max-width: 300px;
+  text-align: center; /* ensures title is centered below tile */
+}
+
+.course-tile {
+  background: #f9f9f9;
+  border-radius: 10px;
+  padding: 0px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  transition: transform 0.3s;
+}
+
+.course-tile img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  display: block;
+}
+
+.course-tile:hover {
+  transform: scale(1.05);
+}
+
+
+body h2 {
+    font-style: oblique;
+    font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", serif;
+    color: #6C0103;
+    text-decoration: underline;
+    font-weight: bold;
+}
+.navbar.fixed-top.navbar-expand-lg.navbar-light.bg-light.shadow-sm .container .navbar-brand.fw-bold {
+    color: #F1D597;
+    font-style: italic;
+    font-size: 25px;
+    font-family: Aparajita, Kokila;
+}
+.container #navbarNav button {
+}
+.container-fluid .footer.bg-dark.text-light.pt-5.pb-3.mt-5 .container-fluid {
+    background-color: #333433;
+}
+.navbar.fixed-top.navbar-expand-lg.navbar-light.bg-light.shadow-sm .container .navbar-toggler {
+    border-color: #8A8888;
+    border-width: 0px;
+    background-color: #F86A27;
+}
+
+
+
+
+
+
+
+
+
+/* 📱 Mobile Responsive */
+@media (max-width: 768px) {
+
+
+}
+.about-us {
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.about-us h2 {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #840202;
+}
+
+.team {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.team-member {
+  text-align: center;
+  max-width: 220px;
+}
+
+.member-photo img {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%; /* circular frame */
+  border: 5px solid #eee;
+  box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+  transition: transform 0.3s, border-color 0.3s;
+}
+
+.member-photo img:hover {
+  transform: scale(1.05);
+  border-color: gold; /* stylish hover glow */
+}
+
+.member-name {
+  margin-top: 15px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+}
+
+.member-role {
+  font-size: 14px;
+  color: #777;
+}
+
+/* 📱 Mobile Responsive */
+@media (max-width: 768px) {
+  .team {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+.about-us {
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.about-us h2 {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #222;
+}
+
+.about-text {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 40px;
+}
+
+.team {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+.gallery {
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.gallery h2 {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #840202;
+}
+
+.gallery-text {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 40px;
+}
+
+.gallery-grid {
+  column-count: 3;
+  column-gap: 20px;
+}
+
+.gallery-item {
+  break-inside: avoid;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.gallery-item img {
+  width: 100%;
+  border-radius: 8px;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.gallery-item img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 12px rgba(0,0,0,0.2);
+}
+
+.play-icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 40px;
+  color: white;
+  text-shadow: 0 2px 6px rgba(0,0,0,0.6);
+  pointer-events: none;
+}
+
+/* 📱 Mobile Responsive */
+@media (max-width: 768px) {
+  .gallery-grid {
+    column-count: 1;
+  }
+}
+.contact-section {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.contact-section h2 {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #222;
+}
+
+.contact-text {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 40px;
+}
+
+.contact-container {
+  display: flex;
+  gap: 40px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* Form Styling */
+.contact-form form {
+  display: flex;
+  justify-content: center;   /* center horizontally */
+  align-items: center;       /* center vertically */
+  flex-direction: column;
+  gap: 15px;
+  max-width: 2000px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 14px;
+  max-width: 500px;
+}
+
+.contact-form button {
+  padding: 12px;
+  background: #333;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.contact-form button:hover {
+  background: #555;
+}
+
+/* Contact Info Cards */
+.contact-info {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 20px;
+  max-width: 500px;
+}
+
+.contact-card {
+  background: #fff;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+  text-align: center;
+  transition: transform 0.3s;
+}
+
+.contact-card:hover {
+  transform: translateY(-5px);
+}
+
+.contact-card .icon {
+  font-size: 28px;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.contact-card h3 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.contact-card p {
+  font-size: 14px;
+  color: #777;
+}
+
+/* 📱 Mobile Responsive */
+@media (max-width: 768px) {
+  .contact-container {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.course-grid {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.course-card:hover {
+  transform: scale(1.05);
+}
+
+.course-card h3 {
+  color: #FF9933;
+  font-family: 'Playfair Display', serif;
+}
+/*Trial two
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #FAF3E0 url('images/lotus-watermark.png') no-repeat center;
+  background-size: contain;
+  padding: 60px 40px;
+  flex-wrap: wrap;
+}
+
+.hero-text h1 {
+  font-family: 'Merriweather', serif;
+  font-size: 36px;
+  color: #3F51B5;
+}
+
+.subtitle {
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  color: #FF9933;
+  margin-bottom: 20px;
+}
+
+.cta-button {
+  background: #3F51B5;
+  color: #fff;
+  padding: 12px 24px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.hero-image img {
+  max-width: 300px;
+}*/
+.logo {
+  height: 50px;
+	}
+.footer {
+  background: linear-gradient(00deg, #333, #333); /* same as header */
+  color: #fff;
+  padding: 40px 0;
+}
+.footer a {
+  color: #fff;
+  transition: color 0.3s ease;
+}
+.footer a:hover {
+  color: #F76A0E; /* saffron highlight */
+}
+.footer h5 {
+  color:  #fff; /* golden headings */
+}
+.footer .btn {
+  background-color: #F76A0E; /* saffron button */
+  border: none;
+  color: #fff;
+}
+.footer .btn:hover {
+  background-color: #FF9933; /* darker saffron on hover */
+}
+@media (max-width: 768px) {
+  .footer .col-md-3 {
+    margin-bottom: 20px;
+  }
+  .footer-logo {
+    max-width: 120px;
+  }
+}
+/* Custom signup button styling */
+.signup-btn {
+  background-color: #ff9933;   /* saffron orange */
+  color: #fff;
+  font-weight: bold;
+  transition: all 0.3s ease;   /* smooth hover animation */
+  border-radius: 5px;
+}
+
+/* Hover effect */
+.signup-btn:hover {
+  background-color: #cc7a29;   /* darker orange on hover */
+  transform: scale(1.05);      /* slight zoom effect */
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3); /* glowing shadow */
+}
+
+.nav-link.btn {
+  transition: all 0.3s ease;
+  border-radius: 20px; /* rounded pill look */
+  font-weight: 500;
+}
+
+.nav-link.btn:hover {
+  background-color: #F76A0E; /* Bootstrap warning yellow */
+  color: #fff !important;
+  border-color: #F76A0E;
+  transform: translateY(-2px); /* subtle lift */
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+/* Reduce spacing between nav items */
+.navbar-nav .nav-item {
+  margin-right: -0.30rem; /* smaller gap */
+}
+
+.navbar-nav .nav-link {
+  padding: 0.4rem 0.6rem; /* tighter padding inside buttons */
+}
+
+/* Custom hover effect for Login button */
+.login-btn {
+  transition: all 0.3s ease; /* smooth animation */
+}
+
+.login-btn:hover {
+    background-color: #ff9800; /* darker orange on hover */
+    color: #fff;              /* ensure text stays visible */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2); /* subtle shadow lift */
+    transform: translateY(-2px); /* slight upward lift */
+    margin-left: 0px;
+    left: -4px;
+}
+.blogger-icon {
+  font-size: 2rem;          /* make icon larger */
+  color: #FF5722;           /* Blogger orange */
+  transition: all 0.3s ease;
+  margin-right: 10px;       /* spacing if multiple icons */
+}
+
+.blogger-icon:hover {
+  color: #E64A19;           /* darker orange on hover */
+  transform: scale(1.2);    /* slight zoom effect */
+  text-decoration: none;    /* remove underline */
+}
+.social-icons {
+  display: flex;
+  gap: 15px;              /* equal spacing between icons */
+}
+
+.social-icon {
+  font-size: 1.8rem;       /* icon size */
+  color: #fff;             /* default white */
+  transition: all 0.3s ease;
+}
+
+.social-icon:hover {
+  color: #ffc107;          /* yellow hover */
+  transform: scale(1.2);   /* zoom effect */
+}
+
+.bg-saffron {
+  background-color:  #FF9933!important;
+  color: #fff; /* ensure text is readable */
+}
+.carousel-inner img {
+  border-radius: 12px;       /* rounded corners */
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2); /* subtle shadow */
+}
+
+.carousel h5 {
+  font-weight: 600;
+  color: #212529;            /* dark text */
+}
+.carousel-indicators [data-bs-target] {
+  background-color: #ffc107; /* saffron/yellow dots */
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  filter: invert(1);         /* make arrows visible on dark backgrounds */
+}
+.carousel-indicators {
+  position: static;   /* prevents absolute positioning */
+  margin-top: 1rem;   /* spacing below titles */
+}
+.carousel-indicators [data-bs-target] {
+  background-color:  #FF9933; /* saffron/yellow dots */
+  width: 20px;
+  height: 20px;
+  border-radius: 50%; /* circular dots */
+}
+
+/* course section design */
+
+.course-card img {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.course-card img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 15px rgba(0,0,0,0.2);
+}
+.course-card h5 {
+  font-weight: 600;
+  margin-top: 10px;
+}
+.badge {
+  font-size: 0.9rem;
+  padding: 6px 10px;
+}
+.btn-outline-primary {
+  border-radius: 20px;
+}
+.btn-success {
+    border-radius: 20px;
+    font-weight: 600;
+    background-color: #ff9800;
+    font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+    font-size: medium;
+    border-width: 0px;
+    width: 150px;
+}
+/* Individual diagonal price tag */
+
+/* Bundle horizontal ribbon */
+.bundle-ribbon {
+  display: inline-block;
+  background: #ff9800;        /* green for bundle */
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 30px;
+  font-weight: 600;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+.bundle-ribbon button {
+  background: #ffc107;        /* saffron button inside ribbon */
+  border: none;
+  font-weight: 600;
+  border-radius: 20px;
+  
+}
+.bundle-ribbon button:hover {
+  background: #C2BCB6 ;
+  /* darker saffron on hover */
+  color: #fff;
+}
+
+.price-ribbon {
+  position: absolute;
+  top: 15px;
+  left: -35px;              /* shift left so diagonal sits nicely */
+  background:#fff;  
+  color: #212529;           /* dark text */
+  padding: 5px 50px;        /* wide enough for diagonal look */
+  font-weight: 600;
+  transform: rotate(-45deg); /* diagonal tilt */
+  box-shadow: 0 0px 0px rgba(0,0,0,0.2);
+  border-radius: 0px;
+  opacity: 70%;
+}
+.gallery-item {
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.gallery-item:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 15px rgba(0,0,0,0.2);
+}
+.gallery-img {
+  border-radius: 8px;
+}
+.modal-content {
+  border-radius: 10px;
+}
+
+/*My courses style */
+.price-ribbon {
+  position: absolute;
+  top: 15px;
+  left: -40px;
+  background: #ffc107;
+  color: #212529;
+  padding: 5px 40px;
+  font-weight: 600;
+  transform: rotate(-45deg);
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+}
+.access-btn {
+  background-color: #28a745;
+  border-radius: 20px;
+  font-weight: 600;
+}
+.buy-btn {
+  background-color: #ffc107;
+  border-radius: 20px;
+  font-weight: 600;
+}
