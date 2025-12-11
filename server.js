@@ -3,7 +3,7 @@ const express = require('express');
 const cors = require('cors');
 const helmet = require('helmet');
 const morgan = require('morgan');
-//const db = require('./db');
+const db = require('./db');
 
 const app = express();
 
@@ -25,6 +25,17 @@ app.use('/purchases', require('./routes/purchases'));
 // Health check route
 app.get('/', (req, res) => {
   res.send('🚀 ParamamSutram backend is running!');
+});
+
+// ✅ DB test route
+app.get('/ping-db', async (req, res) => {
+  try {
+    const [rows] = await db.query('SELECT 1');
+    res.json({ success: true, result: rows });
+  } catch (err) {
+    console.error('❌ DB Test Failed:', err);
+    res.status(500).json({ error: 'Database connection failed' });
+  }
 });
 
 // Error handler
