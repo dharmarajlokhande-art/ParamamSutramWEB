@@ -31,12 +31,19 @@ app.get('/', (req, res) => {
 app.get('/ping-db', async (req, res) => {
   try {
     const [rows] = await db.query('SELECT 1');
+    console.log('✅ DB Connected:', rows);
     res.json({ success: true, result: rows });
   } catch (err) {
-    console.error('❌ DB Test Failed:', err);
-    res.status(500).json({ error: 'Database connection failed' });
+    console.error('❌ DB Test Failed:', err); // full error in logs
+    res.status(500).json({
+      error: 'Database connection failed',
+      code: err.code,          // MySQL error code
+      sqlMessage: err.sqlMessage, // MySQL error message
+      details: err.message     // Node.js error message
+    });
   }
 });
+
 
 // Error handler
 app.use((err, req, res, next) => {

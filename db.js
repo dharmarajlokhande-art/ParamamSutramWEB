@@ -1,4 +1,5 @@
 const mysql = require('mysql2/promise');
+require('dotenv').config();   // 👈 load .env before using process.env
 
 const pool = mysql.createPool({
   host: process.env.DB_HOST,     // e.g. auth-db837.hstgr.io
